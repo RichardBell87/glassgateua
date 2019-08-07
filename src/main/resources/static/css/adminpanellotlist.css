@@ -1,0 +1,248 @@
+#lot-list{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    color: #007bff;
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.lot{
+    background-color: rgba(0, 0, 0, 0.15);
+    color: #ffffff;
+    width:1094px;
+    margin-top: 16px;
+    border: 1px solid #007bff;
+}
+div ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background-color: #F5F5F5;
+    border-radius: 3px;
+ }
+div ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+    border-radius: 3px;
+}
+div ::-webkit-scrollbar-thumb {
+    background-image: -webkit-gradient(linear, 40% 0%, 75% 84%, from(#0D61BC), to(#0B2349), color-stop(.6,#8AA9D6));
+    border-radius: 3px;
+}
+div ::-webkit-scrollbar-thumb:hover {
+    background-image: -webkit-gradient(linear, 40% 0%, 75% 84%, from(#8AA9D6), to(#0B2349), color-stop(.6,#0D61BC));
+}
+.lot-characteristic-name{
+    display: inline-block;
+    width: calc(25% - 8px);
+    height: 24px;
+    max-height: 24px;
+    border: 1px solid transparent;
+    /*border: 1px solid darkred;*/
+}
+.lot-characteristic-name-long{
+    display: inline-block;
+    width: calc(50% - 4px);
+    height: 24px;
+    max-height: 24px;
+    /*margin-left: -4px;*/
+    border: 1px solid transparent;
+    border-top: 1px solid #007bff;
+    /*border: 1px solid darkred;*/
+}
+.lot-characteristic-datetime{
+    height: 24px;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-style: italic;
+    font-size: 20px;
+    color: #000000;
+}
+.lot-characteristic{
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-style: italic;
+    font-size: 20px;
+    color: #000000;
+}
+.picture{
+    overflow: hidden;
+    display: flex;
+    align-self: center;
+    width: calc(25% - 5px);
+    height: 232px;
+    max-width: 265px;
+    max-height: 232px;
+    border: 1px solid transparent;
+    /*border: 1px solid darkred;*/
+    float: left;
+}
+.picture:hover{
+    border: 1px solid #FFFFFF;
+}
+.card-img{
+    display: flex;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 265px;
+    max-height: 232px;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+}
+.card-img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+#lotdescription{
+    height: 206px;
+    max-width: 265px;
+    margin-left: 4px;
+    white-space: pre-line;
+    overflow: auto;
+    border: 1px solid transparent;
+    /*border: 1px solid darkred;*/
+    float: left;
+}
+#lotdescription-1{
+    height: 232px;
+    max-width: 265px;
+    margin-left: 4px;
+    white-space: pre-line;
+    overflow: auto;
+    border: 1px solid transparent;
+    /*border: 1px solid darkred;*/
+    float: left;
+}
+#lotdescription:hover{
+    border: 1px solid #ffffff;
+}
+#lotdescription-1:hover{
+    border: 1px solid #ffffff;
+}
+#lotdescription-in{
+    height: 200px;
+}
+#lotbasecurrency{
+    height: 26px;
+    margin-left: 4px;
+}
+#adminpanel{
+    margin-left: 4px;
+}
+#adminpanel-1{
+    margin-left: 5px;
+}
+#adminpanel-2{
+    margin-left: 8px;
+}
+#adminpanel-3{
+    margin-left: 6px;
+}
+
+
+
+
+
+
+
+/*.lot-characteristic-datetime{*/
+    /*height: 24px;*/
+    /*font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";*/
+    /*font-style: italic;*/
+    /*font-size: 20px;*/
+    /*color: #000000;*/
+/*}*/
+
+/*.lot-characteristic-name-height{*/
+    /*display: inline-block;*/
+    /*!*width: calc(50% - 5px);*!*/
+    /*width: calc(25% - 8px);*/
+    /*!*height: 24px;*!*/
+    /*!*max-height: 24px;*!*/
+    /*border: 1px solid transparent;*/
+/*}*/
+
+/*.lot-characteristic-name-long{*/
+    /*display: inline-block;*/
+    /*width: calc(50% - 5px);*/
+    /*!*width: calc(25% - 8px);*!*/
+    /*height: 24px;*/
+    /*max-height: 24px;*/
+    /*border: 1px solid transparent;*/
+    /*float: right;*/
+/*}*/
+/*.lot-characteristic{*/
+    /*font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";*/
+    /*font-style: italic;*/
+    /*font-size: 20px;*/
+    /*color: #000000;*/
+/*}*/
+
+
+/*.card-img:hover{*/
+    /*-webkit-transform: scale(1.2);*/
+    /*-ms-transform: scale(1.2);*/
+    /*transform: scale(1.2);*/
+/*}*/
+/*#lotdescription{*/
+    /*height: 212px;*/
+    /*margin-left: 4px;*/
+    /*white-space: pre-line;*/
+    /*overflow: auto;*/
+/*}*/
+/*#lotdescription:hover{*/
+    /*border: 1px solid #ffffff;*/
+/*}*/
+/*#lotdescription-in{*/
+    /*height: 200px;*/
+/*}*/
+/*#lotbasecurrency{*/
+    /*height: 26px;*/
+    /*margin-left: 4px;*/
+/*}*/
+/*.lotbet-form {*/
+    /*min-width: 540px;*/
+    /*font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";*/
+    /*font-size: 16px;*/
+    /*outline: 0;*/
+    /*outline-offset: 0;*/
+/*}*/
+/*.lotbet-input-form {*/
+    /*min-width: 188px;*/
+    /*padding: 8px;*/
+    /*border: 1px solid #C2C2C2;*/
+    /*box-shadow: 1px 1px 5px #EBEBEB;*/
+    /*-moz-box-shadow: 1px 1px 5px #EBEBEB;*/
+    /*-webkit-box-shadow: 1px 1px 5px #EBEBEB;*/
+    /*border-radius: 5px;*/
+    /*-webkit-border-radius: 5px;*/
+    /*-moz-border-radius: 5px;*/
+/*}*/
+/*.lotbet-input-form:hover {*/
+    /*border: 1px solid #007bff;*/
+    /*box-shadow: 1px 1px 5px #EBEBEB;*/
+    /*-moz-box-shadow: 1px 1px 5px #EBEBEB;*/
+    /*-webkit-box-shadow: 1px 1px 5px #EBEBEB;*/
+
+/*}*/
+/*.lotbet-input-form:active {*/
+    /*border: 1px solid #007bff;*/
+    /*box-shadow: 1px 1px 5px #EBEBEB;*/
+    /*-moz-box-shadow: 1px 1px 5px #EBEBEB;*/
+    /*-webkit-box-shadow: 1px 1px 5px #EBEBEB;*/
+/*}*/
+/*#lotbet-button{*/
+    /*width: 532px;*/
+    /*margin-left: calc(50% - 266px);*/
+    /*margin-top: 4px;*/
+    /*margin-bottom: 4px;*/
+    /*color: #ffffff;*/
+    /*border: 1px solid #007bff;*/
+    /*background-image: -webkit-gradient(linear, 40% 0%, 75% 84%, from(#0D61BC), to(#0B2349), color-stop(.6,#8AA9D6));*/
+/*}*/
+/*#lotbet-button:hover{*/
+    /*background-image: -webkit-gradient(linear, 40% 0%, 75% 84%, from(#8AA9D6), to(#0B2349), color-stop(.6,#0D61BC));*/
+    /*border: 1px solid #ffffff;*/
+/*}*/
+/*#lotbet-button:active {*/
+    /*border: 1px solid #0000FF;*/
+/*}*/

@@ -1,0 +1,22 @@
+<!--CACHE MANIFEST-->
+    <!--background.jpg-->
+    <!--favicon.png-->
+    <!--cloud1.png-->
+    <!--cloud2.png-->
+    <!--cloud3.svg-->
+
+    <!--canvas.css-->
+
+<!--&lt;!&ndash;#В данной секции перечислены файлы, которые будут кэшированы&ndash;&gt;-->
+<!--&lt;!&ndash;index.html&ndash;&gt;-->
+<!--&lt;!&ndash;flower.png&ndash;&gt;-->
+
+<!--&lt;!&ndash;NETWORK&ndash;&gt;-->
+<!--&lt;!&ndash;#Здесь перечислены файлы, которые требуют подключение к интернету&ndash;&gt;-->
+<!--&lt;!&ndash;login-page.php&ndash;&gt;-->
+
+<!--&lt;!&ndash;FALLBACK&ndash;&gt;-->
+<!--&lt;!&ndash;#Если mob.html недоступен пользователь будет перенаправлен на offline.html&ndash;&gt;-->
+<!--&lt;!&ndash;/mob.html /offline.html&ndash;&gt;-->
+<!--&lt;!&ndash;#Если какой-либо из HTML файлов недоступен пользователь будет перенаправлен на offline.html&ndash;&gt;-->
+<!--&lt;!&ndash;*.html /offline.html&ndash;&gt;-->

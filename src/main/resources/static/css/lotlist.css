@@ -1,0 +1,227 @@
+#lot-list{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    color: #007bff;
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.lot{
+    background-color: rgba(0, 0, 0, 0.15);
+    color: #ffffff;
+    width:540px;
+    margin-top: 16px;
+    border: 1px solid #007bff;
+}
+div ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background-color: #F5F5F5;
+    border-radius: 3px;
+ }
+div ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+    border-radius: 3px;
+}
+div ::-webkit-scrollbar-thumb {
+    background-image: -webkit-gradient(linear, 40% 0%, 75% 84%, from(#0D61BC), to(#0B2349), color-stop(.6,#8AA9D6));
+    border-radius: 3px;
+}
+div ::-webkit-scrollbar-thumb:hover {
+    background-image: -webkit-gradient(linear, 40% 0%, 75% 84%, from(#8AA9D6), to(#0B2349), color-stop(.6,#0D61BC));
+}
+.lot-characteristic-datetime{
+    height: 24px;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-style: italic;
+    font-size: 20px;
+    color: #000000;
+}
+.lot-characteristic-datetimes{
+    height: 24px;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-style: italic;
+    font-size: 20px;
+    color: red;
+}
+.lot-characteristic-name{
+    display: inline-block;
+    width: calc(50% - 5px);
+    height: 24px;
+    max-height: 24px;
+    border: 1px solid transparent;
+}
+.lot-characteristic{
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-style: italic;
+    font-size: 20px;
+    color: #000000;
+}
+.picture{
+    overflow: hidden;
+    display: flex;
+    align-self: center;
+    width: calc(50% - 5px);
+    height: 232px;
+    max-width: 265px;
+    max-height: 232px;
+    border: 1px solid transparent;
+    float: left;
+}
+.picture:hover{
+    border: 1px solid #FFFFFF;
+}
+.card-img{
+    display: flex;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 265px;
+    max-height: 232px;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+}
+.card-img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+#lotdescription{
+    height: 206px;
+    max-width: 270px;
+    margin-left: 4px;
+    white-space: pre-line;
+    overflow: auto;
+    border: 1px solid transparent;
+}
+#lotdescription:hover{
+    border: 1px solid #ffffff;
+}
+#lotdescription-in{
+    height: 200px;
+}
+#lotbasecurrency{
+    height: 26px;
+    margin-left: 4px;
+}
+.lotbet-form {
+    min-width: 540px;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    outline: 0;
+    outline-offset: 0;
+}
+.lotbet-input-form {
+    min-width: 188px;
+    padding: 8px;
+    border: 1px solid #C2C2C2;
+    box-shadow: 1px 1px 5px #EBEBEB;
+    -moz-box-shadow: 1px 1px 5px #EBEBEB;
+    -webkit-box-shadow: 1px 1px 5px #EBEBEB;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.lotbet-input-form:hover {
+    border: 1px solid #007bff;
+    box-shadow: 1px 1px 5px #EBEBEB;
+    -moz-box-shadow: 1px 1px 5px #EBEBEB;
+    -webkit-box-shadow: 1px 1px 5px #EBEBEB;
+
+}
+.lotbet-input-form:active {
+    border: 1px solid #007bff;
+    box-shadow: 1px 1px 5px #EBEBEB;
+    -moz-box-shadow: 1px 1px 5px #EBEBEB;
+    -webkit-box-shadow: 1px 1px 5px #EBEBEB;
+}
+#lotbet-button{
+    width: 532px;
+    margin-left: calc(50% - 266px);
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: #ffffff;
+    border: 1px solid #007bff;
+    background-image: -webkit-gradient(linear, 40% 0%, 75% 84%, from(#0D61BC), to(#0B2349), color-stop(.6,#8AA9D6));
+}
+#lotbet-button:hover{
+    background-image: -webkit-gradient(linear, 40% 0%, 75% 84%, from(#8AA9D6), to(#0B2349), color-stop(.6,#0D61BC));
+    border: 1px solid #ffffff;
+}
+#lotbet-button:active {
+    border: 1px solid #0000FF;
+}
+.button-no-user{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently not supported by any browser */
+    border: 1px solid transparent;
+    text-align: center;
+    background-color: transparent;
+    padding: 7px 16px 7px 16px;
+    color: #007bff;
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 21px;
+    text-decoration: none;
+    text-transform: none;
+    border-radius: 5px;
+}
+.button-no-user:hover {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently not supported by any browser */
+    border: 1px solid #007bff;
+    background-color: #ffffff;
+}
+.button-no-user:active {
+    border: 1px solid #0000FF;
+}
+#lotbet-button-no-user{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently not supported by any browser */
+    width: 498px;
+    height: 22px;
+    margin-left: calc(50% - 266px);
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: #ffffff;
+    border: 1px solid #007bff;
+    background-image: -webkit-gradient(linear, 40% 0%, 75% 84%, from(#0D61BC), to(#0B2349), color-stop(.6,#8AA9D6));
+}
+#lotbet-button-no-user:hover{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently not supported by any browser */
+    background-image: -webkit-gradient(linear, 40% 0%, 75% 84%, from(#8AA9D6), to(#0B2349), color-stop(.6,#0D61BC));
+    border: 1px solid #ffffff;
+}
+#lotbet-button-no-user:active {
+    border: 1px solid #0000FF;
+}
+.empty{
+    min-height: calc(100vh - 200px);
+}
+.nolots{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 64px;
+    max-width: 1094px;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-style: italic;
+    font-size: 20px;
+    color: #000000;
+}

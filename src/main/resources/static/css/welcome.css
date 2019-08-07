@@ -1,0 +1,31 @@
+.brand {
+    text-transform: none;
+    text-decoration: none;
+    background: linear-gradient(45deg, #0B2349 11%, #0D61BC 33%, #8AA9D6);
+    background: -webkit-linear-gradient(45deg, #0B2349 11%, #0D61BC 33%, #8AA9D6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.brand-ua {
+    text-transform: none;
+    text-decoration: none;
+    background: linear-gradient(45deg, #8AA9D6 11%, #0D61BC 33%, #0B2349);
+    background: -webkit-linear-gradient(45deg, #8AA9D6 11%, #0D61BC 33%, #0B2349);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.first-string{
+    color: #000000;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 36px;
+    text-decoration: none;
+    text-transform: none;
+
+}
+.second-string{
+    color: #000000;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 21px;
+    text-decoration: none;
+    text-transform: none;
+}

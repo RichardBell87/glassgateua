@@ -1,0 +1,14 @@
+body {
+    overflow: visible;
+    background-position: center top;
+    background-image: url(/static/image/background.jpg);
+    background-attachment: fixed;
+    min-height: 100%;
+}
+.canvas{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1094px;
+    margin-top: 8px;
+    min-height: 544px;
+}

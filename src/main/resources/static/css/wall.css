@@ -1,0 +1,56 @@
+#world {
+    position: absolute;
+    z-index: -2;
+    left: 50%;
+    top: 50%;
+    margin-left: -356px;
+    margin-top: -156px;
+    height: 512px;
+    width: 512px;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+#world div {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.cloudBase {
+    position: absolute;
+    z-index: -3;
+    left: 256px;
+    top: 256px;
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+.cloudLayer {
+    position: absolute;
+    z-index: -4;
+    left: 50%;
+    top: 50%;
+    /*width: auto;*/
+    /*height: auto;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    width: 1000px;
+    height: 1000px;
+    margin-left: -828px;
+    margin-top: -828px;
+    -webkit-transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+    transition: opacity .2s ease-out;
+}
+#content {
+    position: absolute;
+    z-index: -5;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
